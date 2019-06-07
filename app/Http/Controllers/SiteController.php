@@ -9,7 +9,7 @@ class SiteController extends Controller
 {
     public function index()
     {
-        return "Proteus Zero Knowledge - PoC";
+        return "Zero Knowledge Data Sharing - PoC";
     }
 
     public function client()

@@ -6,7 +6,7 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <!-- https://github.com/wwwtyro/cryptico -->
-    <script src="https://www.fathomminds.com/assets/cryptico.js"></script>
+    <script src="/cryptico.js"></script>
     <script>
         var bits = 1024;
     </script>

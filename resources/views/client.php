@@ -18,12 +18,12 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <!-- https://github.com/wwwtyro/cryptico -->
-    <script src="https://www.fathomminds.com/assets/cryptico.js"></script>
+    <script src="/cryptico.js"></script>
     <script>
         var bits = 1024;
     </script>
     <script>
-        function loadAdminList() 
+        function loadAdminList()
         {
             $.ajax({
                 type: "GET",
@@ -121,7 +121,7 @@
             $('#encrypted-shared-secret-list').html(JSON.stringify(encryptedSharedSecretList));
 
         });
-    
+
         $('#btn-submit').on('click', function(){
             var email = $("#email").val();
             var data1 = $("#data-1").val();
@@ -135,7 +135,7 @@
                 data2: data2,
                 data3: data3,
                 data4: data4,
-                encryptedSharedSecretList: JSON.parse(encryptedSharedSecretList) 
+                encryptedSharedSecretList: JSON.parse(encryptedSharedSecretList)
             }
             $.ajax({
                 type: "POST",
